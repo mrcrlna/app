@@ -80,7 +80,7 @@ def get_class_info(label):
 model, scaler = load_model()
 
 # Judul aplikasi
-st.markdown("<h1 style='text-align: center; color: #FFC3EE;'>Aplikasi Deteksi Kesegaran Ikan</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #000000;'>Aplikasi Deteksi Kesegaran Ikan</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Aplikasi ini khusus untuk deteksi ikan nila merah, ikan kembung, dan ikan dencis.<br>Dapat digunakan pada ikan lain, tetapi tidak dapat dipastikan keakuratannya.<br>Selamat Mencoba!</p>", unsafe_allow_html=True)
 
 
