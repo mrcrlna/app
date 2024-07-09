@@ -56,8 +56,8 @@ def extract_features_from_image(img):
     return vector
 
 def load_model():
-    model = joblib.load('1.trained_svm_model.pkl')
-    scaler = joblib.load('1.scaler.pkl')
+    model = joblib.load('trained_svm_model.pkl')
+    scaler = joblib.load('scaler.pkl')
     return model, scaler
 
 def predict_image(img, model, scaler):
@@ -78,6 +78,7 @@ def get_class_info(label):
 
 # Memuat model SVM dan scaler
 model, scaler = load_model()
+
 
 # Judul aplikasi
 st.markdown("<h1 style='text-align: center; color: #000000;'>Aplikasi Deteksi Kesegaran Ikan</h1>", unsafe_allow_html=True)
